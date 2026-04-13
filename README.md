@@ -2,4 +2,4 @@
 
 Just testing stuff.
 
-The repo is for testing Slack integration.
+The repo is for testing Github integration.
