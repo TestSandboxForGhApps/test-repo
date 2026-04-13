@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pass
-        run: echo "This workflow passes"
+        run: echo "This workflow passes" && exit 1
