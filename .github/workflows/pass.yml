@@ -2,11 +2,11 @@ name: Passing Workflow
 
 on:
   push:
-  pull_request:
   workflow_dispatch:
 
 jobs:
   pass:
+    if: github.repository == 'nonexistent-org/nonexistent-repo'
     runs-on: ubuntu-latest
     steps:
       - name: Pass
